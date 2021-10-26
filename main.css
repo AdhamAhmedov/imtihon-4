@@ -1,0 +1,19 @@
+
+.user-list{
+    height: 800px;
+    overflow: scroll;
+    list-style: none;
+}
+
+.list-post{
+    height: 800px;
+    overflow: scroll;
+    list-style: none;
+
+}
+
+.list-coment{
+    height: 800px;
+    overflow: scroll;
+    list-style: none; 
+}
