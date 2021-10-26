@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="container">
+
+        <div class="row border">
+
+            <div class="col-4 p-1">
+                <div class="m-1 bg-secondary border">
+                    <ul class="user-list px-2">fgerfer</ul>
+                </div>
+            </div>
+
+            <div class="col-4 p-1">
+                <div class="m-1 bg-secondary border">
+                    <ul class="list-post px-2">feferfref</ul>
+                </div>
+            </div>
+
+            <div class="col-4 p-1">
+                <div class="m-1 bg-secondary border">
+                    <ul class="list-coment px-2">frfrwfrewf</ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <template id="js-user-template">
+        <li class="js-user-item border p-3 mb-2 bg-warning">
+
+            <h4 class="js-name">user</h4>
+            <h4 class="js-user">name</h4>
+            <button class="name-btn btn border bg-white">enter</button>
+
+        </li>
+    </template>
+
+    <template id="js-post-template">
+        <li class="js-user-item border p-3 mb-2 bg-success">
+            <p class="js-post-title"></p>
+            <p class="js-post-body"></p>
+            <button class="post-btn btn border bg-white">enter</button>
+        </li>
+    </template>
+
+    <template id="js-comment-template">
+        <li class="js-user-item border p-3 mb-2 bg-primary">
+            <h5 class="comment-name">bbbb</h5>
+            <p class="comment-email">kkkkk</p>
+            <p class="comment-body">llllll</p>
+        </li>
+
+    </template>
+
+    <script src="./main.js">
+    </script>
+</body>
+
+</html>
